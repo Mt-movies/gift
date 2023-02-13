@@ -1,0 +1,34 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url('bg-img.jpg');
+    background-size: cover;
+    
+}
+#main{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 75px;
+    border-radius: 15pc 25px 15pc 25px;
+    }
+input:active{
+    border-radius: 0 0 10px 10px;
+}
+input{
+    margin: 5px;
+    background-color: transparent;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px 10px 0 0 ;
+}

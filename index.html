@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Gift For You</title>
+</head>
+
+<body>
+    <center>
+        <div id="main">
+            <form action="Surprise.html">
+                <input type="text" placeholder="Enter Secret Name" id="name" pattern="[A-Za-z]{6}" required> <br>
+                <input type="submit" onclick="myFunction()" id="button" value="Mohit">
+            </form>
+        </div>
+    </center>
+    <script>
+        function myFunction() {
+            var regName = ('Diksha');
+            var name = document.getElementById('name').value;
+            if (regName == name) {
+                alert('Step for Surprise.');
+                document.getElementById('name').focus();
+                return false;
+            } else {
+                alert('Valid name given.');
+                return true;
+            }
+        }
+
+    </script>
+</body>
+
+</html>
